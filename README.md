@@ -7,3 +7,6 @@
 * Database creation: MySQL
 
 ### Rails4.2系と5.0系の大まかな違い
+
+||Rails4系|Rails5系|備考|
+|:--|:--:|:--:|:--|
