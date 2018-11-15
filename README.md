@@ -27,3 +27,15 @@
   - rails newコマンドでRailsプロジェクトを作成すると、プロジェクト内にbinディレクトリが自動生成される
   - 通常railsコマンドをプロジェクトローカルに実行するにはbundle execを接頭辞のように付与する必要がある
   - bin/railsコマンドを利用することでbundle execを省略することが可能
+
+日本語化
+- rails4
+  - デフォルト言語設定ファイルは config/application.rb
+  - localeファイルの読み込み範囲指定はconfig/application.rb
+  - 翻訳ファイルはconfig/locales以下
+ - rails5
+  - デフォルト言語設定ファイルは config/initializers/locale.rb
+  - localeファイルの読み込み範囲指定はconfig/application.rb
+  - 翻訳ファイルはconfig/locales以下
+    - 参考サイト(
+[Rails5で日本語化](http://tsyknsr.hatenablog.com/entry/2017/01/12/233956))
