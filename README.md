@@ -39,3 +39,9 @@
   - 翻訳ファイルはconfig/locales以下
     - 参考サイト(
 [Rails5で日本語化](http://tsyknsr.hatenablog.com/entry/2017/01/12/233956))
+
+
+- 知らない点
+  - migrationを行うと`ar_internal_metadata`なるテーブルが追加された
+    - 参考サイト  
+[(rails5)rakeタスクがrailsコマンドでもできるようになった](https://techracho.bpsinc.jp/hachi8833/2017_03_01/36329)
