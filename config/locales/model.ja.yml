@@ -1,0 +1,14 @@
+ja:
+  activerecord:
+    attributes:
+      user:
+        name: 名前
+        email: メールアドレス
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: を入力してください
+            email:
+              invalid: が間違っています。確認してください
