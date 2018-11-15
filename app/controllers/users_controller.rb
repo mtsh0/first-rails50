@@ -15,10 +15,12 @@ class UsersController < ApplicationController
   # GET /users/new
   def new
     @user = User.new
+    @submit = '登録する'
   end
 
   # GET /users/1/edit
   def edit
+    @submit = '変更する'
   end
 
   # POST /users
