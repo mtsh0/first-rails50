@@ -4,6 +4,8 @@ ja:
       user:
         name: 名前
         email: メールアドレス
+        password: パスワード
+        password_confirmation: パスワード(確認)
     errors:
       models:
         user:
@@ -14,3 +16,8 @@ ja:
               blank: を入力してください
               invalid: が間違っています。確認してください
               taken: はすでに使われています。別のメールアドレスをお試しください
+            password:
+              blank: を入力してください
+              too_short: を6文字以上で入力してください
+            password_confirmation:
+              confirmation: 入力欄がパスワードの入力と異なります
